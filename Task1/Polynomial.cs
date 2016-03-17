@@ -111,7 +111,7 @@ namespace Task1
             int hash = 17;
 
             for (int i = 0; i < Coefficients.Length; i++)
-                hash = hash*17 + Coefficients[i].GetHashCode();
+                hash = hash*31 + Coefficients[i].GetHashCode();
 
             return hash;
         }
