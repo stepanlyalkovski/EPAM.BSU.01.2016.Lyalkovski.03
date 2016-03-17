@@ -5,8 +5,6 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.XPath;
-using Microsoft.Win32;
 
 namespace Task1
 {
@@ -109,6 +107,7 @@ namespace Task1
 
         public override int GetHashCode()
         {
+            //I will do it later
             throw new NotImplementedException();
         }
     }
